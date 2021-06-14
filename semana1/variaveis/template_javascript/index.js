@@ -69,10 +69,13 @@ let b = 25
 let incialA =  a
 let incialB =  b
 
+a = incialB
+b = incialA
+
 
 // Depois de trocados, teremos o seguinte resultado:
-console.log("O novo valor de a é", incialB) // O novo valor de a é 25
-console.log("O novo valor de b é", incialA) // O novo valor de b é 10
+console.log("O novo valor de a é", a) // O novo valor de a é 25
+console.log("O novo valor de b é", b) // O novo valor de b é 10
 
 
 //DESAFIO
