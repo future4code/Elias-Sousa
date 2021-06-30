@@ -1,0 +1,40 @@
+header{
+background-color: blueviolet;
+border-radius: 20px;
+text-align: center;
+}
+
+
+
+.logoIndex{
+    width: 70px;
+    height: 40px;
+}
+
+
+.menu {
+background-color: whitesmoke;
+}
+
+
+a{
+    text-decoration: none;
+    margin-right: 20px;
+    
+}
+
+
+.produtos{
+background-color: whitesmoke;
+padding: 35px;
+}
+
+footer{
+    padding: 10px;
+    background-color: blueviolet;
+    text-align: center;
+    position: absolute;
+    
+    width: 97%;
+    border-radius: 25px;
+}
