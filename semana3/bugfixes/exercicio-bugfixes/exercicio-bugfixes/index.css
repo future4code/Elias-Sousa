@@ -143,3 +143,9 @@ td button {
 #back-button:hover {
     background-color: #635a3d
 }
+
+
+/* 5.Adicionado uma classe nos elementos td de coprar.html onde estão contidos os textos da tabela e centralizado aqui*/
+.textoTabela{
+    text-align: center;
+}
