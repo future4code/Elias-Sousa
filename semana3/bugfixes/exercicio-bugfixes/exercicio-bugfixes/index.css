@@ -70,9 +70,13 @@ div img {
     background-color: #2274a5;
     color: white;
     padding-top: 205px;
+    
     /* 3. padding adicionado para a  mensagem da seção azul distanciar um pouco do cabeçalho */
     
 }
+
+
+
 
 #container-de-descricao>ol {
     padding: 15px 0px;
