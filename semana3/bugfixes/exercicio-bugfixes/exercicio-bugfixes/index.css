@@ -178,3 +178,13 @@ a:visited{
     color:white;
     cursor: pointer;
 }
+
+
+/* 9. Aplicando borda somente para a parte de baixo do input e aumentando  levemente sua  espessura*/
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 2px;
+}
+
