@@ -193,3 +193,9 @@ input{
 body {
     font-family: 'Roboto', cursive;
 }
+
+
+/* 11. Alinhando a table para o centro da página com a proriedade margin e o valor auto*/
+table{
+    margin-left: auto;
+    margin-right: auto;
