@@ -188,3 +188,8 @@ input{
     border-bottom: solid 2px;
 }
 
+
+/* 10. Chamando a fonte 'Roboto' configurada no head.html e aplicando no body das páginas com a propriedade font*/
+body {
+    font-family: 'Roboto', cursive;
+}
