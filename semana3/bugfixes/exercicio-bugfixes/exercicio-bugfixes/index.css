@@ -55,8 +55,12 @@ div img {
     text-align: center;
 }
 
+/* 7. Modificando as proporções da lupa , chamando a classe ligada a imagem*/
 .icone {
-    height: 15px;
+    height: 20px;
+    width: 20px;
+    background-color: whitesmoke;
+    
 }
 
 
@@ -156,3 +160,4 @@ img{
     width: 40px;
     height: 40px;
 }
+
