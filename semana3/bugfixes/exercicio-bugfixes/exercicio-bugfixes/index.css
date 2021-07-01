@@ -85,6 +85,11 @@ div img {
     font-size: 60px;
 }
 
+/* 2. display block para o botão comprar da tela home poder se ajustar */
+#container-para-comprar>a { 
+    display: block;
+}
+
 
 /**
   *
