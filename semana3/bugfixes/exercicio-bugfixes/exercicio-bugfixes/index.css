@@ -1,0 +1,212 @@
+/** 
+  *
+  *  ESTILOS GERAIS 
+  *
+  **/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    background-color: #fe7e02;
+    padding: 10px 5px 10px 5px;
+    color: white;
+    text-align: center;
+}
+
+input {
+    height: 20px;
+    width: 500px;
+}
+
+button:focus {
+    color: white;
+}
+
+img {
+    width: 100px;
+}
+
+div>p:first-child {
+    display: inline;
+}
+
+div img {
+    background: black;
+}
+
+.botao-amarelo {
+    background-color: #ffaf43;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.botao-amarelo:hover {
+    background-color: #c44f00;
+}
+
+.container {
+    height: 500px;
+    text-align: center;
+}
+
+/* 7. Modificando as proporções da lupa , chamando a classe ligada a imagem*/
+.icone {
+    height: 20px;
+    width: 20px;
+    background-color: whitesmoke;
+    
+}
+
+
+/** 
+  *
+  *  ESTILOS HOME 
+  *
+  **/
+
+#container-de-descricao {
+    background-color: #2274a5;
+    color: white;
+    padding-top: 205px;
+    
+    /* 3. padding adicionado para a  mensagem da seção azul distanciar um pouco do cabeçalho */
+    
+}
+
+
+
+
+#container-de-descricao>ol {
+    padding: 15px 0px;
+}
+
+
+
+
+#container-para-comprar {
+    background-color: #e7eb90;
+}
+
+#container-para-comprar>p {
+    color: #c44f00;
+    padding: 100px 0;
+    font-size: 60px;
+}
+
+/* 2. display block para o botão comprar da tela home poder se ajustar */
+#container-para-comprar>a { 
+    display: block;
+}
+
+
+/**
+  *
+  *  ESTILOS COMPRAR 
+  *
+  **/
+
+div:nth-child(2),
+div:last-child {
+    text-align: center;
+}
+
+table {
+    width: 60%;
+}
+
+td button {
+    background-color: #fadf63;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    color: black;
+}
+
+.container-do-search {
+    margin-top: 20px;
+    height: 100px;
+}
+
+
+#back-button {
+    background-color: white;
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 10px;
+    color: black;
+}
+
+#back-button:hover {
+    background-color: #635a3d
+}
+
+
+/* 5.Adicionado uma classe nos elementos td de coprar.html onde estão contidos os textos da tabela e centralizado aqui*/
+.textoTabela{
+    text-align: center;
+}
+
+
+/* 6. Chamando a tag img da página comprar.html e corrigindo suas proporções no css*/
+img{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+/* 8. Aplicando efeitos de sobreposição e clique(visitado) nos botões*/
+table button:hover{
+    background-color:DarkOrange;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+a:visited{
+    color:white;
+    cursor: pointer;
+}
+
+
+/* 9. Aplicando borda somente para a parte de baixo do input e aumentando  levemente sua  espessura*/
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 2px;
+}
+
+
+/* 10. Chamando a fonte 'Roboto' configurada no head.html e aplicando no body das páginas com a propriedade font*/
+body {
+    font-family: 'Roboto', cursive;
+}
+
+
+/* 11. Alinhando a table para o centro da página com a proriedade margin e o valor auto*/
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* DESAFIOS*/
+
+/* 12. Corrigindo a ausência do tipo do prefixo de lista nos itens com a propriedade display*/
+ol{
+    display: inline-block;
+    
+}
