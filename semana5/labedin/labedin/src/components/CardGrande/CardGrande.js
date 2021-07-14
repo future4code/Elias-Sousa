@@ -1,5 +1,5 @@
 import React from 'react'; //importar o react
-import './CardGrande.css' //importar css - se tiver o styled não precisa
+
 
 function CardGrande(props) { // chamando a funcao com props
     return (
