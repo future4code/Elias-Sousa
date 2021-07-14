@@ -1,0 +1,346 @@
+*{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+
+
+header{
+    background-image: linear-gradient(to top, #f9fcfc 0%, #6a88ca 100%);
+    height: 50px;
+
+    
+}
+
+
+
+header p{
+    font-family: 'Roboto';
+    font-size: 40px;
+    color: whitesmoke;
+    margin-left: 40px;
+    float: left;
+}
+
+
+header a{
+    text-decoration: none;
+
+}
+
+header li{
+    display: inline-block;
+    margin-right: 22px;
+
+}
+
+header ul{
+    float: right;
+    margin-top: 15px;
+
+}
+
+
+body {
+    font-family: 'Roboto';
+}
+
+
+/*Configuração da Section 'descrição' e seus elementos*/
+#descricao{
+    height: 400px;
+    
+}
+
+
+#descricao img{
+    position: absolute; 
+	left: 630px; /* posiciona a 90px para a esquerda */ 
+	top: 130px; /* posiciona a 70px para baixo */
+	
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+
+.whoAmI{ /*div da descricao*/
+    display: inline-block;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 480px;
+    font-size: 17px;
+    
+}
+
+
+.paletaDescricao{
+    float: right;
+    text-align: center;
+    color: black;
+    background-image: linear-gradient(to top, #f9fcfc 0%, #6a88ca 100%);
+    border-radius: 30px 0 0 30px;
+    padding: 15px;
+    margin-top: 30px;
+    
+    
+    
+}
+
+
+
+/*Configuração da Section 'instituicoes' e seus elementos*/
+
+#instituicoes{
+    height:400px;
+    background-color: whitesmoke;
+
+}
+
+/*.paletaInstituicoes{
+    float: left;
+    text-align: center;
+    color: black;
+    background-color: lightblue;
+    border-radius: 30px 30px 0 0;
+    padding: 10px;
+    margin-top: 30px;
+}*/
+
+#instituicoes p{
+    float:left ;
+    
+    display: flex;
+    background-image: linear-gradient(to top, #f9fcfc 0%, #6a88ca 100%);
+    border-radius: 0 30px 30px 0;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+
+.logos{
+    position: relative;
+    display: flexbox;
+    background-color: red;
+    
+    text-align: center;
+    
+}
+
+.lab{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    float: left;
+    margin-left: 140px;
+    margin-top: 100px;
+}
+
+.etec{
+    width: 160px;
+    height: 150px;
+    display: flex;
+    float: left;
+    margin-left: 160px;
+    margin-top: 110px;
+}
+
+.poli{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    float: right;
+    margin-right: 140px;
+    margin-top: 90px;
+}
+
+
+.eutectic{
+    width: 145px;
+    height: 100px;
+    display: flex;
+    float: right;
+    margin-right: 160px;
+    margin-top: 115px;
+    
+}
+
+
+
+
+/*Configuração da Section 'galeriaProjetos' e seus elementos*/
+
+#galeriaProjetos{
+    height: 400px;
+    
+}
+
+
+#galeriaProjetos p{
+    float: right;
+    text-align: center;
+    color: black;
+    background-image: linear-gradient(to top, #f9fcfc 0%, #6a88ca 100%);
+    border-radius: 30px 0 0 30px;
+    padding: 15px;
+    margin-top: 30px;
+    
+}
+
+
+
+.projeto1{
+    background-color: red;
+    width: 400px;
+    height: 350px;
+    float: left;
+    margin-top: 40px;
+    border-radius: 20px;
+    margin-left: 90px;
+}
+
+.projeto1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.projeto2{
+    background-color:blue;
+    width: 400px;
+    height: 350px;
+    float: right;
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-right: 90px;
+}
+
+
+
+.projeto2 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*Configuração da Section 'habilidades' e seus elementos*/
+
+#habilidades{
+    height: 400px;
+    background-color: whitesmoke;
+}
+
+
+.paletaHabilidades{
+    float: left;
+    text-align: center;
+    color: black;
+    background-image: linear-gradient(to top, #f9fcfc 0%, #6a88ca 100%);
+    border-radius: 0 30px 30px 0;
+    padding: 15px;
+    margin-top: 30px;
+
+}
+
+.hab1{
+    float: left;
+    margin-left: 200px;
+    margin-top:40px;
+    text-align: center;
+    background-color:ghostwhite;
+    padding: 20px;
+    border-radius: 15px;
+    
+
+}
+
+
+.hab2{
+    float: right;
+    margin-right: 200px;
+    margin-top:40px;
+    text-align: center;
+    background-color:ghostwhite;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+/*Configuração da Section 'formulario' e seus elementos*/
+
+#formulario{
+    height: 400px;
+    background-image: linear-gradient(to top, #f9fcfc 0%, #6a88ca 100%);
+}
+
+/* ESTILIZANDO O FORMULÁRIO */
+#formulario{ width:84%; height: 150px; float: left; background-color: rgb(8, 8, 8); padding: 50px 8%;}
+#formulario h3 {font-size: 1.8em; color: #fff;}
+#formulario p {font-size: 1.2em;color: #fff;}
+#formulario form {width: 100%; float: left; margin-top: 10px;}
+#formulario form input {width: 40%; margin-right: 1%; padding: 15px 10px; border:1px solid #fff;
+	border-radius: 5px; color: #fff; background-color: initial; float: left;}
+#formulario button {width: 18%; background-color: #fff; padding: 15px 10px; border-radius: 5px;
+	float: left; cursor: pointer; margin:10px;}
+	
+
+
+
+footer{
+    
+    height: 70px;
+    
+    
+    
+}
+
+
+.linkd{
+    width: 65px;
+    height: 65px;
+    float: left;
+    margin-left: 200px;
+    padding: 15px;
+    margin-left: 480px ;
+    margin-top: 10px;
+}
+
+
+.insta{
+    width: 65px;
+    height: 65px;
+    float: left;
+    padding: 15px;
+    margin-left: 40px ;
+    margin-top: 10px;
+}
+
+.git{
+    width: 130px;
+    height: 75px;
+    float: left;
+    padding: 15px;
+    margin-left: 25px ;
+    
+}
+
+
+
+/* Mudança a scroolbar */
+
+body::-webkit-scrollbar {
+    width: 5px;              
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-image: linear-gradient(to bottom, #f9fcfc 0%, #6a88ca 100%);        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: orange;    
+    border-radius: 20px;      
+    
+  }
+
+  
