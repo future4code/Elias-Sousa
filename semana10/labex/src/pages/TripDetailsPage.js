@@ -25,7 +25,7 @@ const RestrictAccess=()=>{
 export const TripDetailsPage =()=>{
 
 
-    RestrictAccess();
+    RestrictAccess(); // Marina  talvez essa página tenha algo que errei e tá sobrescrevendo na minha adminhomepage
 
     useEffect(() => {
         const token = localStorage.getItem("token");
