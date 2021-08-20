@@ -66,6 +66,11 @@ export const ListTripsPage =()=>{
   </TripCards>
   );
 
+
+
+    
+
+
     useEffect(() => {
         const token = localStorage.getItem("token");
         axios

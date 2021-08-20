@@ -17,6 +17,8 @@ import {AdminHomePage} from './pages/AdminHomePage'
 
 
 export const Routes=()=> {
+
+  
   return (
     <BrowserRouter>
     <Switch>
@@ -28,7 +30,7 @@ export const Routes=()=> {
     </Route>
 
 
-    <Route exact path={"/admin/trips/:id"}>
+    <Route exact path={"/admin/trips/id"}>
     <TripDetailsPage/>
     </Route>
 

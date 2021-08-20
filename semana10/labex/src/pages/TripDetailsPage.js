@@ -24,14 +24,15 @@ const RestrictAccess=()=>{
 
 export const TripDetailsPage =()=>{
 
+  const [detailed,setDetailed] = useState([])
 
-    RestrictAccess(); // Marina  talvez essa página tenha algo que errei e tá sobrescrevendo na minha adminhomepage
+    RestrictAccess(); 
 
-    useEffect(() => {
+    useEffect((key) => {
         const token = localStorage.getItem("token");
         axios
           .get(
-            "https://us-central1-labenu-apis.cloudfunctions.net/labeX/darvas/trip/NoIFVcOiSgTKTIPVZwXS",
+            `https://us-central1-labenu-apis.cloudfunctions.net/labeX/darvas/trip/${key}`,
             {
               headers: {
                 auth: token
@@ -39,7 +40,8 @@ export const TripDetailsPage =()=>{
             }
           )
           .then((response) => {
-            console.log("Deu certo", response.data);
+            console.log("Deu certo", response.data.trip);
+            //setDetailed(response.data.trip)
           })
           .catch((error) => {
             console.log("Deu erro: ", error.response);
@@ -52,6 +54,7 @@ export const TripDetailsPage =()=>{
         <div>
     <div>Para o administrador ver o detalhe de uma viagem específica, bem como os candidatos que aplicaram para ela</div>
     
+    {detailed}
     </div>
     );
 }
