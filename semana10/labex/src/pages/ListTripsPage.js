@@ -7,9 +7,7 @@ import React from "react";
 
 
 
-//1. puxar o estado fazendo um map - -copia do estado nessa nova constante
-//fazer a estrutura para receber cada um desses maps
-//renderizar esse novo map na tela
+
 
 
 const TripCards = styled.div`
@@ -23,6 +21,7 @@ padding: 15px;
 margin: 15px;
 flex-direction: column;
 border-radius: 15px;
+box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
 
 li{
     list-style:none;
@@ -38,6 +37,25 @@ div{
 
 `;
 
+
+
+const UserListPage = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+button{
+    background-color: transparent;
+    height: 50px;
+    margin:5px;
+    cursor: pointer;
+
+    :hover{
+        background-color:lightgray;
+    }
+}
+`;
 
 
 
@@ -68,6 +86,7 @@ export const ListTripsPage =()=>{
 
 
 
+
     
 
 
@@ -90,9 +109,11 @@ export const ListTripsPage =()=>{
 
     return(
         <div>
+         < UserListPage>
     <div>Para vermos todas as viagens</div>
     
-    <button onClick={GotoHomePage}>Voltar</button> <button onClick={GotoApplicationForm}>Inscreva-se</button>
+    <div><button onClick={GotoHomePage}>Voltar</button> <button onClick={GotoApplicationForm}>Inscreva-se</button></div>
+    </UserListPage>
     {viagens}
     </div>
     );

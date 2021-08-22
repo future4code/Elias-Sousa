@@ -1,9 +1,34 @@
-import {BrowseRouter, Switch, Route, useHistory} from "react-router-dom";
+import {useHistory} from "react-router-dom";
 import axios from "axios";
 import styled from "styled-components";
-import { useEffect } from "react";
 import { useState } from "react";
 import React from "react";
+
+
+
+const StyleLogin = styled.div` // estilizando o login
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+input{
+    width: 400px;
+    margin:5px;
+}
+
+
+button{
+    background-color: transparent;
+    height: 35px;
+    margin:5px;
+    cursor: pointer;
+
+    :hover{
+        background-color:lightgray;
+    }
+}
+`;
 
 export const LoginPage =()=>{
 
@@ -45,23 +70,17 @@ export const LoginPage =()=>{
     };
 
 
-///
-
-    ////
-
-    
-    
     return(
 
-    <div>
+        <StyleLogin>
 
         <div>Para fazermos login como administrador</div>
-        <label>Email:</label><input onChange={onChangeGuardaEmail}  value={email} placeholder="Seu email" />
-        <label>Senha:</label><input onChange={onChangeGuardaSenha} value={password}  placeholder="Sua senha" />
+        <div><input onChange={onChangeGuardaEmail}  value={email} placeholder="Seu email" /></div>
+        <div><input onChange={onChangeGuardaSenha} value={password}  placeholder="Sua senha" /></div>
 
         <div><button onClick={Login}>Fazer Login</button></div>
 
-    </div>
+        </StyleLogin>
 
     
     );
