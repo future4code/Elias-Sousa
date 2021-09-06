@@ -4,12 +4,14 @@ import LoginPage from '../pages/LoginPage/LoginPage'
 import PostDetailPage from '../pages/PostDetailPage/PostDetailPage'
 import SignUpPage from '../pages/SignUpPage/SignUpPage'
 import ErrorPage from '../pages/ErrorPage/ErrorPage'
+import Header from '../components/Header/Header'
 
 
 
 const Router =()=>{
 return (
 <BrowserRouter>
+<Header/>
 <Switch>
 
 <Route exact path={"/login"}>
