@@ -1,0 +1,5 @@
+Exercício 1
+
+a) o método utilizado para obter uma lista é o metódo GET
+b) A entidade que está sendo manipulada são dados do tipo JSON
+
