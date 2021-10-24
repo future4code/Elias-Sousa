@@ -3,11 +3,12 @@
 
 import { config } from "dotenv"
 import app from "./app"
+import Signup from './endpoints/Signup'
 
 
 config()
 
-app.post('/signup')
+app.post('/signup',Signup)
 
 app.post('/login')
 
